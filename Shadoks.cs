@@ -5,7 +5,6 @@ using System.Collections.Generic;
 class Shadoks{
     static public readonly String[] Alphabet = {"Ga","Bu","Zo","Meu"};
     static public string Traduire(int num){
-        List<int> indexs = new List<int>();
         StringBuilder text = new StringBuilder();
         while(true){
             text.Insert(0,Alphabet[num%4]);
