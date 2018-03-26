@@ -1,7 +1,5 @@
 class Shadoks
 
-	attr_reader		:Alphabet
-	
 	@@Alphabet = ["Ga","Bu","Zo","Meu"]
 	
 	def self.Alphabet
