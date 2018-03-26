@@ -4,7 +4,6 @@ Alphabet = ["Ga","Bu","Zo","Meu"]
 
 def Traduire(valeur):
     if type(valeur) is int:
-        indexs = []
         texte = ""
         while True:
             texte = Alphabet[valeur%4]+texte
